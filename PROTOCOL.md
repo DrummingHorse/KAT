@@ -10,7 +10,7 @@ The Operator controls relay delivery, merges, publication, credentials and acces
 - Keep each participant's **PRIVATE BASELINE** outside the shared collaborator-readable repository. Store it in Operator-only custody.
 - Track: rounds, proposed hypotheses, measurable falsifiers, independent corrections, evidence, uncertainty, and whether output is only editing or genuinely new.
 - No confidential documents, secrets, credentials, sensitive user details, or proprietary materials.
-- The repository is private, but models must not assume they have access. An X connection is not GitHub authorization.
+- The repository is **publicly readable**, but models must not claim access unless their current tools actually opened the requested file. An X connection is not GitHub authorization, and public visibility does not enable browsing in a tool-less chat.
 - An experiment cipher does not provide confidentiality.
 - No changes to existing KASKADE studies, sealed comparisons, or preregistered measurements.
 
